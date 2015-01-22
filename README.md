@@ -13,4 +13,7 @@ Actual:
     name in constructor is o
     name just past constructor is o
 
+I'm not sure if minification is deterministic. Your actual browser console
+output may vary.
+
 The code works as expected during `meteor run` (development mode).
