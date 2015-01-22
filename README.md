@@ -16,4 +16,4 @@ Actual:
 I'm not sure if minification is deterministic. Your actual browser console
 output may vary.
 
-The code works as expected during `meteor run` (development mode).
+The "Expected" output is seen during `meteor run` (development mode).
