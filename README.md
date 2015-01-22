@@ -1,6 +1,16 @@
-# classx-2-0-3-minification-bug
+Demo of <https://github.com/arsnebula/classx/issues/1>.
 
-To repro, deploy app by running `./build.sh`.
+To repro, run app with `meteor run --production`, hit with a web browser and
+look at the browser's developer console.
 
-The code works as expected during `meteor run` (development mode) or when the
-`--debug` argument is passed to `meteor build`.
+Expected:
+
+    name in constructor is MyClass
+    name just past constructor is MyClass
+
+Actual:
+
+    name in constructor is o
+    name just past constructor is o
+
+The code works as expected during `meteor run` (development mode).
